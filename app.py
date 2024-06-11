@@ -102,4 +102,4 @@ if __name__ == '__main__':
     url = f'http://{local_ip}:{port}/'
 
     webbrowser.open_new(url)
-    serve(app, host='0.0.0.0', port=port)
+    serve(app, host=local_ip, port=port)
