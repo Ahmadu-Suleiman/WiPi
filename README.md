@@ -5,4 +5,4 @@ To use WiPi, simply download and install the app on your computer. Once installe
 
 To connect to your WiPi repository from another device on the same local network, simply open a web browser on that device and enter the URL of your computer. You can then browse your WiPi repository and download any files or folders you need.
 
-# Your files will need to be in a folder called Container in you computer's desktop section
+# Your files will need to be in a folder called 'Container' in you computer's desktop folder
