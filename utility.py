@@ -24,8 +24,7 @@ class Section:
 
 
 Files = []
-PATH = os.path.join(os.path.join(os.path.expanduser('~')),
-                    'Desktop', 'container')
+PATH = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop', 'Container')
 mime = magic.Magic(mime=True)
 
 for (path, folder, files) in os.walk(PATH):

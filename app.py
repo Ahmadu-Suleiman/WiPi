@@ -14,7 +14,6 @@ import magic
 app = Flask(__name__)
 app.secret_key = 'WiPi'
 
-
 logger = logging.getLogger('waitress')
 logger.setLevel(logging.INFO)
 
