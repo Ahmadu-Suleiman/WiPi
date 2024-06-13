@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: ./
+    container_name: wipy_container
+    ports:
+      - "8080:8080" 
+    image: WiPy:1.0 
+    environment:
+      - ENV_VAR=value 
