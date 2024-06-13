@@ -103,3 +103,5 @@ if __name__ == '__main__':
 
     webbrowser.open_new(url)
     serve(app, host=local_ip, port=port)
+    
+    #app.run(host='0.0.0.0', port=port) # for docker/testing
